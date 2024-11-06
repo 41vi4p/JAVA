@@ -77,7 +77,7 @@ public class FlightBookingSystem {
             throw new Exception("Invalid payment amount");
         }
         // Simulate payment processing
-        System.out.println("Payment of $" + amount + " processed successfully.");
+        System.out.println("Payment of Rs." + amount + " processed successfully.");
     }
 
     public static void main(String[] args) {
